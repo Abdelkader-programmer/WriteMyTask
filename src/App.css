@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Archivo+Black&family=Boldonse&family=Cairo:wght@200..1000&family=Caprasimo&family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=Caveat:wght@400..700&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Delius&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lalezar&family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Momo+Trust+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Odibee+Sans&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+AU+NSW:wght@100..400&family=Reem+Kufi+Fun:wght@400..700&family=Saira:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Sevillana&family=Story+Script&family=Teko:wght@300..700&family=Tektur:wght@400..900&family=WDXL+Lubrifont+JP+N&family=WDXL+Lubrifont+SC&display=swap');
+
+body{
+    background-color: black;
+}
+
+.font1{
+    font-family: "Science Gothic", sans-serif;
+}
+
+
+.iconSize{
+    width: 50px;
+    height: 50px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.3);
+    width: 12px;
+}
+
+/* responsive styles can be added here when needed */
+
+@media (max-width : 767px) {
+    .toggle {
+        display: flex !important;
+    }
+    .hideSlide{
+        height: auto;
+    }
+    .font1{
+        font-size: x-large;
+    }
+}
