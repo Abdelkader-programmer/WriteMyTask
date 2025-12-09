@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "WriteTask",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://Abdelkader-programmer.github.io/WriteTask",
   "dependencies": {
