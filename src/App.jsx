@@ -1,6 +1,5 @@
 import * as React from 'react';
 import './App.css';
-import { Routes , Route , Link } from 'react-router-dom';
 import ScreenList from './components/ScreenList';
 import AddForm from './components/AddForm';
 import { SendTaskContext } from './contexts/SendTaskContext';

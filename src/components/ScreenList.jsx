@@ -1,9 +1,6 @@
 import * as React from 'react';
-import NavBarList from "./NavBarList";
 import LiftSlide from "./LiftSlid";
 import AddForm from "./AddForm";
-import EndTasks from './EndTasks';
-import { Routes , Route , Link } from 'react-router-dom';
 
 
 export default function ScreenList(){
@@ -17,12 +14,7 @@ export default function ScreenList(){
                 </div>
                 <div className="w-full h-auto p-2 m-auto lg:col-span-2 md:col-span-2 z-30">
                     <div className='w-full h-[99.5%] border-4 border-yellow-500 rounded-2xl'>
-                        {/* <NavBarList /> */}
-                        <Routes>
-                            <Route path='/Write' element={<AddForm />} />
-                            <Route path='/done' element={<EndTasks />} />
-
-                        </Routes>
+                        <AddForm />
                     </div>
                 </div>
             </div>

@@ -28,16 +28,16 @@ export default function LiftSlide(){
             </div>
             <div className='w-full mt-10'>
                 <div className='w-full h-[50px] flex gap-10 justify-center items-center'>
-                    <a href="#" target="_blank" className='' title='Facebook'><FacebookIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
+                    <a href="https://www.facebook.com/share/16fv1Xr1uu/" target="_blank" className='' title='Facebook'><FacebookIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
                     <p className='text-3xl text-[#ffc200] font1'>&</p>
-                    <a href="#" target="_blank" className='' title='GitHub'><GitHubIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
+                    <a href="https://github.com/Abdelkader-programmer" target="_blank" className='' title='GitHub'><GitHubIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
                 </div>
             </div>
             <div className='w-full mt-10'>
                 <div className='w-full h-[50px] flex gap-10 justify-center items-center'>
-                    <a href="#" target="_blank" className='' title='LinkedIn'><LinkedInIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
+                    <a href="https://www.linkedin.com/in/abdelkader-mahmoud-921805303/" target="_blank" className='' title='LinkedIn'><LinkedInIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
                     <p className='text-3xl text-[#ffc200] font1'>&</p>
-                    <a href="#" target="_blank" className='' title='Instagram'><InstagramIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
+                    <a href="https://www.instagram.com/bboddaa9098/profilecard/?igsh=ZXhqcmM4MGxvcXcw" target="_blank" className='' title='Instagram'><InstagramIcon className='text-[#ffc200] hover:-translate-y-2 hover:scale-120' sx={{width : '60px' , height : '60px' , transition : '0.5s'}} /></a>
                 </div>
             </div>
         </>
